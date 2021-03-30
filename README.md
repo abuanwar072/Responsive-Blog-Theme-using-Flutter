@@ -1,6 +1,6 @@
 # Responsive Blog Theme using Flutter | Web, macOS, Android, iOS
 
-## [Watch it on YouTube](https://youtu.be/bkR7naR1efA)
+## [Watch it on YouTube](https://youtu.be/YvGX4h7Bpic)
 
 **Packages we are using:**
 

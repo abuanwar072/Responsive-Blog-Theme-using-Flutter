@@ -1,16 +1,17 @@
-# news
+# Responsive Blog Theme using Flutter | Web, macOS, Android, iOS
 
-A new Flutter project.
+## [Watch it on YouTube](https://youtu.be/bkR7naR1efA)
 
-## Getting Started
+**Packages we are using:**
 
-This project is a starting point for a Flutter application.
+- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
+- get: [link](https://pub.dev/packages/get)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Flutter recently announced Flutter V2.0, after that on stable branch it supports Web, macOS, Android, and iOS. That's why today we create a responsive blog theme using flutter that runs on Web, macOS app, Android, and iOS app. Also, we create an animated web menu that has custom hover animation. In the end, you learn how to make a responsive app using flutter.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Responsive Blog Theme using Flutter Final UI
+
+![Preview](/gif.gif)
+
+![App UI](/ui.png)

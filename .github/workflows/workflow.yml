@@ -15,9 +15,9 @@ runs-on: ubuntu-latest
         channel: 'stable' 
     - name: Upgrades flutter
       run: flutter upgrade
-    #   working-directory: ./example
-    # - name: Enable Web
-    #   run: flutter config --enable-web
+      working-directory: ./example
+    - name: Enable Web
+      run: flutter config --enable-web
       working-directory: ./example
     - name: Install dependencies
       run: flutter packages get

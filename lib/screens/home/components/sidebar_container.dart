@@ -6,9 +6,9 @@ class SidebarContainer extends StatelessWidget {
   final String title;
   final Widget child;
   const SidebarContainer({
-    Key key,
-    @required this.title,
-    @required this.child,
+    Key? key,
+    required this.title,
+    required this.child,
   }) : super(key: key);
 
   @override

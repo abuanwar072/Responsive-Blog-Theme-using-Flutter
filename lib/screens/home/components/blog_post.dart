@@ -8,8 +8,8 @@ import '../../../constants.dart';
 class BlogPostCard extends StatelessWidget {
   final Blog blog;
   const BlogPostCard({
-    Key key,
-    @required this.blog,
+    Key? key,
+    required this.blog,
   }) : super(key: key);
 
   @override
@@ -20,7 +20,7 @@ class BlogPostCard extends StatelessWidget {
         children: [
           AspectRatio(
             aspectRatio: 1.78,
-            child: Image.asset(blog.image),
+            child: Image.asset(blog.image!),
           ),
           Container(
             padding: EdgeInsets.all(kDefaultPadding),
@@ -46,7 +46,7 @@ class BlogPostCard extends StatelessWidget {
                     ),
                     SizedBox(width: kDefaultPadding),
                     Text(
-                      blog.date,
+                      blog.date!,
                       style: Theme.of(context).textTheme.caption,
                     ),
                   ],
@@ -55,7 +55,7 @@ class BlogPostCard extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(vertical: kDefaultPadding),
                   child: Text(
-                    blog.title,
+                    blog.title!,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
@@ -68,7 +68,7 @@ class BlogPostCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  blog.description,
+                  blog.description!,
                   maxLines: 4,
                   style: TextStyle(height: 1.5),
                 ),

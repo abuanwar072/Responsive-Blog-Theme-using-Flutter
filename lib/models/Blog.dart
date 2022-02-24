@@ -1,5 +1,5 @@
 class Blog {
-  final String date, title, description, image;
+  final String? date, title, description, image;
 
   Blog({this.date, this.title, this.description, this.image});
 }

@@ -6,7 +6,7 @@ import 'sidebar_container.dart';
 
 class Search extends StatelessWidget {
   const Search({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

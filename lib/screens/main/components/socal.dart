@@ -6,7 +6,7 @@ import '../../../responsive.dart';
 
 class Socal extends StatelessWidget {
   const Socal({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

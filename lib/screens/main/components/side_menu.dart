@@ -47,10 +47,10 @@ class DrawerItem extends StatelessWidget {
   final VoidCallback press;
 
   const DrawerItem({
-    Key key,
-    @required this.title,
-    @required this.isActive,
-    @required this.press,
+    Key? key,
+    required this.title,
+    required this.isActive,
+    required this.press,
   }) : super(key: key);
 
   @override

@@ -10,7 +10,7 @@ import 'components/search.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
